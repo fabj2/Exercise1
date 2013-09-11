@@ -4,7 +4,7 @@
 #include "Manager.h"
 
 Employee::Employee(int id, char* name)
-   {
+   { //test comment
    ID = id;
    Employee::name = new char[strlen(name)];
    strcpy(Employee::name, name);
