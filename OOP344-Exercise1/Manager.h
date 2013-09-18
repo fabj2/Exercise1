@@ -1,14 +1,17 @@
 class Employee;
 
-class Manager
+
+
+class Manager 
    {
    private:
       int totalHours;
    protected:
-   private:
+   public:
       Manager();
 
       void getWorkerHours(Employee* emp);
 
       void report();
    };
+   

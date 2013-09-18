@@ -6,7 +6,7 @@
 Employee::Employee(int id, char* name)
    { //test comment
    ID = id;
-   Employee::name = new char[strlen(name)];
+   Employee::name = new char[strlen(name)+1];
    strcpy(Employee::name, name);
    boss = 0;
    hours = 0;
@@ -15,13 +15,13 @@ Employee::Employee(int id, char* name)
 
 Employee::~Employee()
    {
-   if(name)
+   if(name != NULL)
       delete [] name;
    }
 
-void Employee::setBoss(Manager* newBoss)
-   {
-   boss = newBoss;
+void Employee::setBoss(Manager& newBoss)
+   {        
+     boss = &newBoss;
    }
 
 void Employee::work(int numOfHours)
@@ -46,4 +46,9 @@ int Employee::getHours()
 int Employee::getID()
    {
    return ID;
+   }
+
+   char* Employee::getName()
+   {
+        return name;      
    }

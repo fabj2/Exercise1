@@ -1,5 +1,6 @@
 class Manager;
 
+
 class Employee
    {
    private:
@@ -11,10 +12,11 @@ class Employee
    public:
       Employee(int id, char* name);
       ~Employee();
-      void setBoss(Manager* newBoss);
+      void setBoss(Manager& newBoss);
       void work(int numOfHours);
       void report();
       int getHours();
       int getID();
       char* getName();
    };
+   
