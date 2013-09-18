@@ -1,0 +1,8 @@
+﻿Build started 9/17/2013 9:41:43 PM.
+     1>Project "D:\Documents and Settings\jeann2\My Documents\GitHub\Exercise1\OOP344-Exercise1\OOP344-Exercise1.vcxproj" on node 2 (build target(s)).
+     1>D:\Program Files\MSBuild\Microsoft.Cpp\v4.0\Platforms\Win32\Microsoft.Cpp.Win32.Targets(518,5): error MSB8008: Specified platform toolset (v110) is not installed or invalid. Please make sure that a supported PlatformToolset value is selected.
+     1>Done Building Project "D:\Documents and Settings\jeann2\My Documents\GitHub\Exercise1\OOP344-Exercise1\OOP344-Exercise1.vcxproj" (build target(s)) -- FAILED.
+
+Build FAILED.
+
+Time Elapsed 00:00:00.17
